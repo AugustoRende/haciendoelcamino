@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', '- '.ucfirst(Request::path()))
+@section('title', '- '.$category->name)
 
 @section('content')
     <section class="s-content">

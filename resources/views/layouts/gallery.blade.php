@@ -7,7 +7,7 @@
                 <article class="masonry__brick entry format-quote" data-aos="fade-up">
                     <div class="entry__thumb">
                         <blockquote>
-                            <p>{{ $post->description }}</p>
+                            <p>{{ $post->short_description }}</p>
                             <cite>{{ $post->title }}</cite>
                         </blockquote>
                     </div>   
@@ -50,7 +50,7 @@
                                 <h1 class="entry__title"><a href="{{ url('post/'.$post->id) }}">{{ $post->title }}</a></h1>
                             </div>
                             <div class="entry__excerpt">
-                                <p>{{ $post->description }}</p>
+                                <p>{{ $post->short_description }}</p>
                             </div>
                             <div class="entry__meta">
                                 <span class="entry__meta-links">

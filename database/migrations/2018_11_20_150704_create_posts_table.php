@@ -18,7 +18,8 @@ class CreatePostsTable extends Migration
             $table->string('title');
             $table->string('src');
             $table->string('date');
-            $table->string('description',1024);
+            $table->string('short_description',1024);
+            $table->longText('long_description');
             $table->integer('category_id')->unsigned();
             $table->foreign('category_id')->references('id')->on('categories')->onDelete('no action')->onUpdate('no action');
             $table->integer('post_type_id')->unsigned();
