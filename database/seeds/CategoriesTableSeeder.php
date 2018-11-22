@@ -35,5 +35,11 @@ class CategoriesTableSeeder extends Seeder
             'name' => 'Tutoriales',
             'description' => 'Descripción de la categoría Tutoriales',
         ]);
+
+        Category::create([
+            'code' => 'restauracion',
+            'name' => 'La Restauración',
+            'description' => 'Descripción de la categoría La Restauración',
+        ]);
     }
 }

@@ -24,7 +24,7 @@
             <div class="featured__column featured__column--small">
                 <div class="entry" style="background-image:url('images/home/augusto.jpg');">
                     <div class="entry__content">
-                        <span class="entry__category"><a href="#0">Nosotros</a></span>
+                        <span class="entry__category"><a href="{{ url('/nosotros') }}">Nosotros</a></span>
                         <h1><a href="{{ url('/augusto') }}" title="">Augusto Rende Giacomelli.</a></h1>
                         <div class="entry__info">
                             <a href="#0" class="entry__profile-pic">
@@ -40,7 +40,7 @@
 
                 <div class="entry" style="background-image:url('images/home/lucia.jpg');">
                     <div class="entry__content">
-                        <span class="entry__category"><a href="#0">Nosotros</a></span>
+                        <span class="entry__category"><a href="{{ url('/nosotros') }}">Nosotros</a></span>
                         <h1><a href="{{ url('/lucia') }}" title="">Lucía Oviedo.</a></h1>
                         <div class="entry__info">
                             <a href="#0" class="entry__profile-pic">

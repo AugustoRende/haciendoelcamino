@@ -18,6 +18,7 @@
 
 Route::get('/augusto', function () { return view('augusto'); });
 Route::get('/lucia', function () { return view('lucia'); });
+Route::get('/nosotros', function () { return view('nosotros'); });
 Route::get('/', 'PostController@index');
 
 Route::resource('post', 'PostController');
